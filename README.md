@@ -1,2 +1,1 @@
-# credit_card_offer_acceptance_project
-Build and deploy a machine learning model that will predict whether a customer will accept a credit card offer.
+Our project deals with a marketing problem in the banking field, which is knowing which customers to target to offer a given banking product. The specific case of credit cards will be the subject that we will analyze today, with the aim of identifying bank customers likely to accept a credit card offer. To answer this problem, we decided to create an algorithm which will allow us to predict the customers corresponding to this offer and likely to accept it. 
