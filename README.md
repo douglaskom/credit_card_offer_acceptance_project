@@ -12,41 +12,45 @@ By exploring this data, we want to better understand the elements that influence
 
 # Data Description 
 
-This dataset contains the results of a credit card offer campaign carried out by a bank, with the decision that the customers of that bank made: acceptance or refusal. The overview of the structure and format of the data will be presented to you below: 
+This dataset ("creditcardmarketing-bbm.csv") contains the results of a credit card offer campaign carried out by a bank, with the decision that the customers of that bank made: acceptance or refusal. The overview of the structure, definition and format of the data will be presented to you below: 
 
-customer_number (Integer) 
+### The independent variables recorded for these clients are as follows:
 
-offer_accepted (Boolean) 
+Customer Number: Unique identifier for each customer. (Integer)    
 
-Reward (String) 
+Reward: The type of reward offered with the credit card. (String)  
 
-mailer_type (String) 
+Mailer Type: The type of mailer used to send the offer. (String)  
 
-income_level (String) 
+Income Level: The customer’s income level. (String)  
 
-bank_accounts_open (Integer) 
+#Bank Accounts Open: How many bank accounts does a customer have open? (Integer)  
 
-overdraft_protection (Boolean) 
+Overdraft Protection: Whether or not a customer has overdraft protection on their account(s). (Boolean)  
 
-credit_rating (String) 
+Credit Rating: A rating based on how well a customer's payment record reflects their ability and willingness to repay debt under terms accepted by creditors. (String) 
 
-credit_cards_held (Integer) 
+#Credit Cards Held: How many credit cards does this user currently hold? (Integer)  
 
-homes_owned (Integer) 
+#Homes Owned: How many homes does this user own? (Integer)  
 
-household_size (Integer) 
+Household Size: Size of household that this person belongs is kept track of. (Integer)  
 
-own_your_home (Boolean) 
+Own Your Home: Whether or not a particular user owns their home. (Boolean)  
 
-average_balance (Float) 
+Average Balance: Average balance across all accounts. (Float)  
 
-q1_balance (Integer) 
+Q1 Balance: The customers balance in each quarter throughout an entire year. (Float)  
 
-q2_balance (Integer) 
+Q2 Balance: The customers balance in each quarter throughout an entire year. (Float)  
 
-q3_balance (Integer) 
+Q3 Balance: The customers balance in each quarter throughout an entire year. (Float)  
 
-q4_balance (Integer) 
+Q4 Balance: The customers balance in each quarter throughout an entire year. (Float) 
+
+### The target variable is: 
+
+Offer Accepted: Whether or not the customer accepted the offer. (Boolean)
 
 # Methodology 
 
