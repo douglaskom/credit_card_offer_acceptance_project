@@ -96,22 +96,4 @@ Here are the steps I will follow to be able to create and deploy my logistic reg
 
 After having trained the data at our disposal, we will set up a logistic regression model capable of predicting whether a bank customer will accept a credit card offer. We will use Streamlit in VScode to deploy the model. 
 
-# Potential Challenges 
-
-1- Data Quality Issues: 
-
-Challenge: The dataset may contain missing values, outliers, or inaccuracies, which can affect the performance of the machine learning model. 
-
-Correction Strategy: We will implement robust data preprocessing techniques such as imputation for missing values, outlier detection and processing, and extensive data cleaning to ensure high data quality before training the model. 
-
-2- Imbalanced Classes: 
-
-Challenge: The dataset may have imbalanced class distributions, where one class significantly outnumbers the others, leading to biased model performance. 
-
-Correction Strategy:: We can use techniques such as oversampling, under sampling or algorithmic approaches like class weights or resampling methods to balance the class distribution and mitigate the impact of class imbalance on model training. 
-
-3- Model Overfitting or Underfitting: 
-
-Challenge: The trained model may suffer from overfitting (fitting too closely to the training data) or underfitting (failing to capture the underlying patterns), leading to poor generalization on unseen data. 
-
-Correction Strategy: we can regularize the model by adjusting the hyperparameters, use cross-validation for model selection, and use techniques such as dropout, early stopping or ensemble learning to avoid overfitting. We will ensure that the complexity of the model is adequate to capture the underlying patterns in the data without undertraining. 
+# Link to my application: https://predictive-analysis-of-acceptance-a-credit-card-offer.streamlit.app/
