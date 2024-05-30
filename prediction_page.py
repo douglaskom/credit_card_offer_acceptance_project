@@ -20,8 +20,8 @@ le_creditRating = data['le_creditRating']
 le_homeOwner = data['le_homeOwner']
 
 def show_predict_page():
-    st.title("Machine Learning Model Prediction")
-    st.write(" ### Enter the feature values to get a prediction:")
+    st.title("Let's check if the customer is a good candidate for a credit card offer 😊!")
+    st.write(" ### Enter customer information to predict whether they will accept a credit card offer:")
     
     reward = ('Air Miles',
               'Cash Back',
